@@ -1,0 +1,34 @@
+// Lista/Consulta task (GET)
+
+http://localhost:3000/task
+
+ou
+
+http://localhost:3000/task/"Tire as aspas e escreva o id aqui"
+
+// Nova task (POST)
+
+http://localhost:3000/task
+
+{
+    "task_title": "*****",
+    "task_description": "*****"
+}
+
+// Atualizar task (PUT)
+
+http://localhost:3000/task/"Tire as aspas e escreva o id aqui"
+
+{
+    "task_title": "*****",
+    "task_description": "*****"
+}
+
+// Deleta task (DELETE)
+
+http://localhost:3000/task/"Tire as aspas e escreva o id aqui"
+
+// Completa task (PUT)
+
+http://localhost:3000/task/completed/"Tire as aspas e escreva o id aqui"
+
